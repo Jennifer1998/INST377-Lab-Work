@@ -3,3 +3,54 @@
     - The styles in this folder's `style.css`
     - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
 -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jennifer's Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"><h1>Jennifer's Labs for INST377</h1></header>
+
+    <div class="container">
+      
+      <div class="left_section box">
+        <h3>Albums</h3>
+        <ol class="box">
+            <li> Led Zepelin - Led Zeppelin </li>
+            <li> ESQUARIA - XTEND DRIVE </li>
+            <li> YUC'e - Future Cake </li>
+            <li>  Camelia - SUPER DREAM ZONE </li>
+            <li> ONE OK ONE - Ambitions </li>
+        </ol>
+      </div>
+
+      <div class="right_section box">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <button class="prev">Prev</button>
+            <div class="slides">
+                <div class="carousel_item visible"><img id="slide1" src="images/1.jpg" alt="Mochi.gif" ></div>
+                <div class="carousel_item hidden"><img id="slide2" src="images/2.jpg" alt="Mochi.jpg" ></div>
+                <div class="carousel_item hidden"><img id="slide3" src="images/3.jpg" alt="Mochi.png" ></div>
+                <div class="carousel_item hidden"><img id="slide4" src="images/4.jpg" alt="Mochi.svg" ></div>
+            </div>
+            <button class="next">Next</button>
+        </div>
+        <div class="box">
+          <p>Paragraph about the images.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="footer">Jennifer1998 :<a href="https://github.com/Jennifer1998" target="_blank" rel="noopener noreferrer">My GitHub account</a></footer>
+  <script src="script.js"></script>
+</body>
+</html> 
